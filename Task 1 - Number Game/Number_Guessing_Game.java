@@ -11,10 +11,10 @@ public class Number_Guessing_Game {
 		
 		
 		int lowerBound =1;
-		int upperBound = 10;
+		int upperBound = 100;
 		int targetNumber =random.nextInt(upperBound-lowerBound+1)+lowerBound;
 		
-		int maxAttempts=5;
+		int maxAttempts=3;
 		int attempts=0;
 		boolean guessedCorrectly = false;
 		
